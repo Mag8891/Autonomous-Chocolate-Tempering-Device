@@ -27,7 +27,7 @@ int Dark = 0; // 1 and 0 values to determine whether device is tempering dark ch
 //Hopper value declarations
 unsigned long HopperStartTime; // Save start time for Hopper system
 unsigned long HopperCurrentTime; // Timer for Hopper
-const unsigned long HopperDelay = 5000; // 5 sec delay for Hopper system
+const unsigned long HopperDelay = 15000; // 15 sec delay for Hopper system
 Servo HopperServo; //Declare Servo
 
 //State Variables
